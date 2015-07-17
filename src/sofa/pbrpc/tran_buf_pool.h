@@ -10,7 +10,7 @@
 #include <sofa/pbrpc/common_internal.h>
 
 #ifndef SOFA_PBRPC_TRAN_BUF_BLOCK_SIZE
-#define SOFA_PBRPC_TRAN_BUF_BLOCK_SIZE (1024u - sizeof(RefCountType))
+#define SOFA_PBRPC_TRAN_BUF_BLOCK_SIZE (8192u - sizeof(RefCountType))
 #endif
 
 namespace sofa {
